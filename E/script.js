@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
             document.body.classList.remove('shake-effect');
         }, 5000); // 1000毫秒 = 1秒
         
+    });
+});
+
 // 获取图片元素
 var image1 = document.getElementById('images/image1');
 
@@ -24,6 +27,5 @@ function changeImage() {
     } else {
         // 如果当前显示 image2，则切换回 image1
         image1.src = "images/image1.jpg";
-
-    });
-});
+ }
+}
