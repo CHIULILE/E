@@ -93,14 +93,14 @@ h2 {
 
 /* 針對特定圖片的樣式 */
 #image1 {
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     object-fit: contain; /* 保持圖片比例，裁剪多餘部分 */
 }
 
 /* 針對特定圖片的樣式 */
 #image2 {
-    width: 900px;
+    width: 600px;
     height: 600px;
     object-fit: contain; /* 保持圖片比例，裁剪多餘部分 */
 }
