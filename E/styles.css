@@ -91,10 +91,6 @@ h2 {
     object-fit: cover;
 }
 
-.gallery-item.active img {
-    transform: scale(1.2); /* 当图片处于活动状态时，放大1.2倍 */
-}
-
 /* 針對特定圖片的樣式 */
 #image1 {
     width: 300px;
