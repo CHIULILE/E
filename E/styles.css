@@ -91,6 +91,13 @@ h2 {
     object-fit: cover;
 }
 
+/* 中心链接样式 */
+.centered-link {
+    margin-bottom: 20px; /* 给链接下方添加间距 */
+    text-align: center; /* 确保链接文本居中 */
+    display: block; /* 将链接设置为块级元素，以便居中对齐 */
+}
+
 /* 針對特定圖片的樣式 */
 #image1 {
     width: 600px;
