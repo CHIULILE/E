@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery-item img {
+            max-width: 100%; /* 图片最大宽度为容器宽度 */
+            transition: transform 0.3s ease; /* 添加变换过渡效果 */
+        }
+        .gallery-item.active img {
+            transform: scale(1.2); /* 当图片处于活动状态时，放大1.2倍 */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,7 +25,7 @@
             <h2></h2>
             <div class="gallery-container">
                 <div class="gallery-item"><img id="image1" src="images/image1.jpg" alt="Image 1" onclick="changeImage()"></div>
-                <img id="image2" src="images/image2.jpg" alt="Image 2" onclick="changeImage()">
+                <div class="gallery-item"><img id="image2" src="images/image2.jpg" alt="Image 2" style="display: none;"></div>
             </div>
         </section>
     </main>
