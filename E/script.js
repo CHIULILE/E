@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 5000); // 1000毫秒 = 1秒
         
 // 获取图片元素
-var image1 = document.getElementById('image1');
+var image1 = document.getElementById('images/image1');
 
 // 点击图片切换函数
 function changeImage() {
