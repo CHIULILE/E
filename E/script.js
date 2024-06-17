@@ -29,3 +29,12 @@ function changeImage() {
         image1.src = "images/image1.jpg";
  }
 }
+
+var image1 = document.getElementById('image1');
+var image2 = document.getElementById('image2');
+
+function changeImage() {
+    // 切换图片显示状态
+    image1.parentElement.classList.toggle('active');
+    image2.parentElement.classList.toggle('active');
+}
