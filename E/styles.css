@@ -89,7 +89,6 @@ h2 {
     height: auto;
     display: block;
     object-fit: cover;
-    transition: transform 0.3s ease;
 }
 
 .gallery-item.active img {
