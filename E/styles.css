@@ -89,6 +89,11 @@ h2 {
     height: auto;
     display: block;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item.active img {
+    transform: scale(1.2); /* 当图片处于活动状态时，放大1.2倍 */
 }
 
 /* 針對特定圖片的樣式 */
