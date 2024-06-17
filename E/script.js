@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // 获取图片元素
-var image1 = document.getElementById('images/image1');
+var image1 = document.getElementById('image1');
 
 // 点击图片切换函数
 function changeImage() {
