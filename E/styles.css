@@ -98,6 +98,13 @@ h2 {
     object-fit: contain; /* 保持圖片比例，裁剪多餘部分 */
 }
 
+/* 針對特定圖片的樣式 */
+#image2 {
+    width: 900px;
+    height: 600px;
+    object-fit: contain; /* 保持圖片比例，裁剪多餘部分 */
+}
+
 /* 添加震動效果 */
 .shake-effect {
     animation: shake 0.5s ease-in-out;
