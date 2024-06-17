@@ -24,8 +24,6 @@ function changeImage() {
     } else {
         // 如果当前显示 image2，则切换回 image1
         image1.src = "images/image1.jpg";
-    }
-}
-    
+
     });
 });
