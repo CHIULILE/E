@@ -18,11 +18,11 @@ var image1 = document.getElementById('images/image1.jpg');
 // 点击图片切换函数
 function changeImage() {
     // 检查当前显示的图片是 image1 还是 image2
-    if (images1.src.match("images/image1.jpg")) {
+    if (images/images1.src.match("images/image1.jpg")) {
         // 如果当前显示 image1，则切换到 image2
-        image1.src = "images/image2.jpg";
+        images/image1.src = "images/image2.jpg";
     } else {
         // 如果当前显示 image2，则切换回 image1
-        images1.src = "images/image1.jpg";
+        images/image1.src = "images/image1.jpg";
     }
 }
