@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const headerButton = document.getElementById('header-button');
     headerButton.addEventListener('click', function () {
-        alert('手機已開機！');
+        alert('已開機！');
         document.querySelector('header').style.background = 'linear-gradient(45deg, #ff5e00, #22b9ff)';
 
         // 添加震動效果
